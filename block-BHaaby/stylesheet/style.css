@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: #D4CEA7;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+ol{
+    list-style: decimal;
+}
+ul{
+    list-style: disc;
+}
+ol,
+ul{
+    padding-left: 40px;
+    color: #C5C3A2;
+}
+li{
+    color: #C5C3A2;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.stretch{
+    align-items: stretch;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/* header */
+.header{
+    background-color:#F96115 ;
+    padding: 32px 0;
+}
+.header li{
+    list-style: none;
+}
+.header ul{
+    padding-left: 0;
+}
+.header a{
+    text-decoration: none;
+    font-size:24px ;
+    margin-right: 32px;
+    color:#FEF7F2;
+}
+/* lists */
+.menu-wrapper{
+    padding: 60px 0;
+}
+.menu{
+    width: 28%;
+    background-color:#005979 ;
+    color: white;
+    font-size: 24px;
+    padding: 32px 0;
+    padding-left: 60px;
+}
+.menu li{
+    line-height: 2;
+}
+.sub-menu {
+    list-style: square;
+}
+.list-img li{
+background-image: url(../assets/media/tick.png);
+     background-repeat: no-repeat;
+     background-size: 24px;
+     background-position: 0 15px;
+     list-style: none;
+     padding-left: 35px;
+}
+/* about list */
+dl{
+    font-size: 20px;
+}
+dt{
+    font-size: 32px;
+}
+dd{
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+/* footer */
+.footer{
+    padding: 40px 0;
+    background-color: #252C22;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    color: #7D836F;
+}
+.footer a {
+    color:#FEF7F2;
+    margin-right: 32px;
+    font-size: 24px;
+    text-decoration: none;
+}
